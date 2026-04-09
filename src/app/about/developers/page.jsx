@@ -1,5 +1,8 @@
 
-
+export const metadata = {
+  title: "Developer",
+  description: "Developer Details",
+};
 const DevelopersPage = () => {
     return (
         <div>
