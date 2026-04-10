@@ -15,6 +15,7 @@ const Navbar = () => {
         <Link href={"/about/developers"} className={pathname==='/about/developers' ? 'text-blue-400':''}>Developer</Link>
         <Link href={"/blogs"} className={pathname==='/blogs' ? 'text-blue-400':''}>Blogs</Link>
         <Link href={"/dashboard"} className={pathname==='/dashboard' ? 'text-blue-400':''}>Dashboard</Link>
+        <Link href={"/Users"} className={pathname==='/Users' ? 'text-blue-400':''}>Users</Link>
       </li>
     </>
   );
