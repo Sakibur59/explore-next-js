@@ -61,6 +61,7 @@ const BlogsDetailsPage = async ({params}) => {
         {blog && <div>
             <h2>Blog Title: {blog.title}</h2>
             <p>Blog Content: {blog.content}</p>
+            
             </div>
             }
   </div>
