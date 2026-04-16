@@ -5,8 +5,8 @@ const PostDetailsPage = async ({ params }) => {
   const {title,body} = Posts;
 
   return (
-    <div>
-      <h2>Show Details of Post: {postId}</h2>
+    <div className="max-w-300 mx-auto text-center mt-30">
+      <h2 className="text-3xl text-green-600 font-bold">Show Details of Post: {postId}</h2>
       <h1>Post Title: {title}</h1>
       <p>Post Body: {body}</p>
     </div>
